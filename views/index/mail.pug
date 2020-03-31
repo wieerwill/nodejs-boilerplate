@@ -1,0 +1,17 @@
+extends ../layout
+
+block body
+    form(action="/mail" method="POST")
+      
+      .input
+        label(for="email") Your Email 
+        input(type="email" id="email" name="email" placeholder="example@web.com" required)
+      
+      .input
+        label(for="message") Your message 
+        textarea(name="message" id="message")
+
+      .input
+        input(type="submit" id="submit" value="send mail")
+
+    a(href="/") go back
