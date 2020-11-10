@@ -1,3 +1,8 @@
+/*
+Generate ready to use Sitemap
+more Infos: https://www.npmjs.com/package/advanced-sitemap-generator
+*/
+
 const SitemapGenerator = require('advanced-sitemap-generator');
 
 // create generator
@@ -7,8 +12,8 @@ const generator = SitemapGenerator('https://XXXXXXX', { // add your site url her
     filepath: path.join(process.cwd(), 'sitemap.xml'),
     maxEntriesPerFile: 50000,
     stripQuerystring: true,
-    excludeFileTypes: ['ico', 'bmp', 'ogg', 'webp', 'mp4', 'webm', 'mp3', 'ttf',  'woff', 'json', 'rss', 'atom', 'gz', 'zip', 'rar', '7z', 'css', 'js', 'gzip', 'exe', 'svg', 'xml'],
-    excludeURLs: ['login', 'dashboard'],
+    excludeFileTypes: ['ico', 'bmp', 'ogg', 'webp', 'mp4', 'webm', 'mp3', 'ttf', 'woff', 'json', 'rss', 'atom', 'gz', 'zip', 'rar', '7z', 'css', 'js', 'gzip', 'exe', 'svg', 'xml'],
+    excludeURLs: ['login'],
     changeFreq: weekly,
     filepath: sitemap.xml // path to be saved
 });
