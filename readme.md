@@ -6,7 +6,7 @@ This repository show you a simple but powerful way to start up your NodeJS Proje
 1. Clone/Fork this repository
 2. install all requirements
    1. node
-   2. npm (or yarn)
+   2. npm, yarn, pnpm (recommended)
    3. mysql 
 3. set the config files
    1. change `config/mail.js` credentials
@@ -37,7 +37,7 @@ This repository show you a simple but powerful way to start up your NodeJS Proje
  | [method-override](https://www.npmjs.com/package/method-override) | Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it                                                                       |
  | [morgan](https://www.npmjs.com/package/morgan)                   | HTTP request logger middleware for node.js                                                                                                                        |
  | [mysql](https://www.npmjs.com/package/mysql)                     | This is a node.js driver for mysql. It is written in JavaScript, does not require compiling, and is 100% MIT licensed.                                            |
- | [nodemailer](https://www.npmjs.com/package/nodemailer)           | Send e-mails from Node.js – easy as cake!                                                                                                                         |
+ | [nodemailer](https://www.npmjs.com/package/nodemailer)           | Send e-mails from Node.js ï¿½ easy as cake!                                                                                                                         |
  | [nodemon](https://www.npmjs.com/package/nodemon)                 | nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected. |
  | [pug](https://www.npmjs.com/package/pug)                         | Pug is a high performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers                                     |
 
